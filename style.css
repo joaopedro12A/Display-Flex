@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald'; 
+    background-color: #fff; 
+}
+
+header {
+    background-color: rgb(2, 2, 176);
+    height: 6rem; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: white;
+}
+
+main {
+    padding: 2rem;
+}
+
+.primeira {
+    display: flex;
+    align-items: center; 
+    max-width: 800px; 
+    margin: 2rem auto;
+}
+
+.primeira p {
+    max-width: 80%;
+    margin-right: 3rem; 
+}
+
+.primeira img {
+    width: 30rem; 
+    height: auto; 
+}
+
+.segunda {
+    background-color: #cd7f32; 
+    height: 25rem; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 2rem 0; 
+}
+
+.segunda img {
+    width: 30rem; 
+    height: 18rem; 
+    margin: 3rem; 
+}
+
+.segunda p {
+    width: 20%; 
+    margin: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Terceira {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 3rem 0; 
+}
+
+.Terceira img {
+    width: 80rem; 
+    height: 40rem;
+    margin: 2rem;
+}
